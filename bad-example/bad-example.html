@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to My Portfolio</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="about">
+            <h2>About Me</h2>
+            <p>I'm a beginner software engineer passionate about functional programming.</p>
+        </div>
+
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: To-Do List Web App</h3>
+                <p>A web application that allows users to create, manage, and track their tasks.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Task Tracker App</h3>
+                <p>An application built with functional programming principles to manage and track tasks.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder='Email' required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </div>
+</body>
+</html>
