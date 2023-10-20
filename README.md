@@ -28,6 +28,8 @@ graph LR
 - no proper image markup
 - no proper link markup
 - no proper list markup
+- inline CSS styles
+- email as a link instead of mailto
 
 ## The bad example
 
