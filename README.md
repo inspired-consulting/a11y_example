@@ -21,6 +21,7 @@ graph LR
 - meta tags missing
 - no lang attribute
 - no title
+- more than one h1
 - too little semantic markup
 - no proper heading hierarchy
 - no proper form controls
@@ -31,6 +32,9 @@ graph LR
 ## The bad example
 
 [… got to the bad example](bad_example/bad_example.html)!
+
+- meta tags
+- no lang attribute
 
 ## The good example
 
