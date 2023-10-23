@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, my name is Bob and I'm a frontend developer.">
+		
+    <title>Bob's Portfolio</title>
 
-		<title>My Portfolio</title>
-
-		<link rel="stylesheet" href="good_example.css">
-    <!-- <script src="index.js" defer></script> -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+		<!-- <link rel="stylesheet" href="good_example.css"> -->
 	</head>
 
 	<body>
@@ -25,14 +26,14 @@
 		<main>
 			<section id="about">
 				<h2>About Me</h2>
-				<p>I'm a beginner software engineer passionate about functional programming. I love building elegant and efficient solutions using functional programming concepts.</p>
+				<p>I'm a frontend developer passionate about accessibility. I love building applications that are inclusive and accessible to all users.</p>
 			</section>
 
 			<section id="projects">
 				<h2>Projects</h2>
 				<article>
 					<h3>Project 1: To-Do List Web App</h3>
-					<p>A web application that allows users to create, manage, and track their tasks. The app follows functional programming principles and provides a user-friendly interface.</p>
+					<p>A web application that allows users to create, manage, and track their tasks. The app provides a user-friendly interface.</p>
 					<p>This project demonstrates the use of functional programming concepts in building a practical and efficient application for task management.</p>
 
 					<figure>
@@ -49,19 +50,24 @@
 
 			<section id="contact">
 				<h2>Contact Me</h2>
-				<p>If you'd like to get in touch, feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+				<p>If you'd like to get in touch, feel free to reach out to me at</p>
+        <address><a href="mailto:your.email@example.com">hello@bob.com</a></address>
+        <p>or fill out the following form:</p>
 
 				<form id="contact-form" action="#" method="post">
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="name" placeholder="Your Name" required>
+					<fieldset>
+            <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br>
 
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br>
 
-					<label for="message">Message:</label>
-					<textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
 
-					<button type="submit">Submit</button>
+            <button type="submit">Contact me!</button>
+          </fieldset>
 				</form>
 			</section>
 		</main>
