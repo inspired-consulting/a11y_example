@@ -1,2 +1,3 @@
 #IDE related
 .vscode/
+.DS_Store
