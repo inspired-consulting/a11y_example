@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html> <!-- Missing lang attribute to specify language -->
+<head>
+  <!-- Missing charset definition for document encoding. 
+  screen readers and other assistive technologies, incorrect character encoding could result in unreadable or confusing output -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Missing meta description (important for SEO and indirectly screenreaders) -->
+  <!-- Missing title tag -->
+  <!-- Missing stylesheet reference, inline styles are difficult. -->
+</head>
+<body>
+  <!-- Missing semantic header element -->
+  <h1>My Portfolio</h1>
+  <div> <!-- Not using semantic <nav> element for navigation -->
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+  
+  <!-- Missing semantic main element -->
+  <!-- Missing semantic article element -->
+    <!-- ASIDE: -->
+    <!-- The difference between <section> and <article> is that 
+      <article> represents a self-contained composition that could be independently distributed or syndicated, 
+      while <section> is a thematic grouping of content that is part of a larger whole. 
+      <article> should make sense on its own, whereas <section> is context-dependent. -->
+  <h1>About Me</h1>
+  <p>I'm a frontend developer passionate about accessibility. I love building applications that are inclusive and accessible to all users.</p>
+  
+  <!-- Missing semantic article element -->
+  <!-- Missing semantic section element -->
+  <h1>Project 1: To-Do List Web App</h1> <!-- Multiple h1 tags are confusing for screen readers -->
+  <p>A web application that allows users to create, manage, and track their tasks. The app provides a user-friendly interface.</p>
+  <p>This project demonstrates the use of functional programming concepts in building a practical and efficient application for task management.</p>
+  <!-- Missing figure element -->
+  <!-- Missing alt attribute for image -->
+  <img src="../images/todo_list.jpeg">
+  <!-- Missing fig caption element -->
+  
+  <!-- Missing semantic section element -->
+  <h1>Project 2: Task Tracker App</h1> <!-- Multiple h1 tags are confusing for screen readers -->
+  <p>An application built with functional programming principles to manage and track tasks. It uses immutability and pure functions to ensure data integrity.</p>
+
+  <!-- Missing semantic article element -->
+  <h1>Contact Me</h1> <!-- Multiple h1 tags are confusing for screen readers -->
+  <!-- Missing mailto link element -->
+  <!-- Missing address element -->
+  <p>If you'd like to get in touch, feel free to reach out to me at <a href="hello@bob.com">your.email@example.com</a>or fill out the following form:</p>
+  
+  <!-- Form lacks fieldset, legend, and label elements for form controls -->
+  <form action="#" method="post">
+    <!-- Missing label for input -->
+    <input type="text">
+    <!-- Missing label for email input -->
+    <input type="email" name="email">
+    <!-- Missing label for text input, and textarea should be used for multi-line input -->
+    <input type="text" required style="height: 80px;">
+  
+    <!-- Button text should be more descriptive -->
+    <button type="submit">Click here!</button>
+  </form>
+
+  <!-- Missing semantic footer element -->
+  <!-- Missing semantic time element -->
+  <p>&copy; 2023 Bob's Portfolio.</p>
+  
+</body>
+</html>
