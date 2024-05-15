@@ -35,7 +35,7 @@ graph LR
 
 ## The good example
 
-[… got to the good example](good_example/good_example.html)!
+[… go to the good example](good-example/good_example.html)!
 
 ### What's good about it?
 
