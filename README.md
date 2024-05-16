@@ -13,6 +13,7 @@ graph LR
 - [The bad example](#the-bad-example)
   - [What's wrong with it?](#whats-wrong-with-it)
 - [The good example](#the-good-example)
+  - [What's good about it?](#whats-good-about-it)
 
 ## The bad example
 
@@ -35,7 +36,7 @@ graph LR
 
 ## The good example
 
-[… got to the good example](good_example/good_example.html)!
+[… go to the good example](good_example/good_example.html)!
 
 ### What's good about it?
 
